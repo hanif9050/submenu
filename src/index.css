@@ -458,6 +458,7 @@ Submenu
     max-width: var(--max-width);
     background: var(--white);
     padding: 2rem;
+
     transform: rotateX(-90deg) translateX(-50%);
     transform-origin: top;
     perspective: 1000px;
@@ -467,7 +468,7 @@ Submenu
     transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
     z-index: -1;
   }
-  .show-submenu {
+   .show-submenu {
     visibility: visible;
     opacity: 1;
     transform: rotateX(0deg) translateX(-50%);
@@ -491,5 +492,5 @@ Submenu
   }
   .submenu-links svg {
     color: var(--grey-500);
-  }
+  } 
 }
